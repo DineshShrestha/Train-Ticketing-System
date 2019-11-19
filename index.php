@@ -120,7 +120,7 @@
               
     <div class="btn-bar">
               
-    <a href="reserved.php" class="btn btn-success ">RESERVE</a>
+    <a href="reserved.php" class="btn btn-primary "> RESERVE HERE !! </a>
                     
     </div>
           
