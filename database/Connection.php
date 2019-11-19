@@ -6,7 +6,7 @@ class Connection{
 	protected $transaction;
 
 								//un phpmyadmin    pass phpmyadmin     ip 				dbname
-	public function __construct($username="root", $password ="", $host="localhost", $dbname="medallion", $options = []){
+	public function __construct($username="root", $password ="", $host="localhost", $dbname="railwayticketing", $options = []){
 		
 		$this->isConn = TRUE;
 		try{

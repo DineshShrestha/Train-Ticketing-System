@@ -14,7 +14,7 @@ if(isset($_SESSION['tracker'])){
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Medallion</title>
+		<title>Railway Ticketing Reservation</title>
 
 		<!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -26,7 +26,7 @@ if(isset($_SESSION['tracker'])){
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Medallion Online Ticketing</a>
+      <a class="navbar-brand" href="#">Railway Online Ticketing</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active">
@@ -59,7 +59,7 @@ if(isset($_SESSION['tracker'])){
 			 	</div>
 			 	<div class="panel-body">
 			 		<strong>
-			 			<i>Medallion Transport, M/V Lady of All Nations</i>
+			 			<i>Railway Ticketing Reservation System</i>
 			 			<h3>
 			 			<?php require_once('data/depart_from_to.php'); 
 			 				echo $origin['origin_desc'];

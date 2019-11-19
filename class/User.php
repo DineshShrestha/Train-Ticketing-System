@@ -17,4 +17,3 @@ class User extends Database implements iUser {
 
 $user = new User();//instance
 /* End of file User.php */
-/* Location: .//D/xampp/htdocs/medallion/class/User.php */

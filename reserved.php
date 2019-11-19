@@ -12,7 +12,7 @@ require_once('data/get_destination.php');
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Online Ticket Rerservation</title>
+		<title>Railway Ticket Rerservation</title>
 
 		<!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -24,7 +24,7 @@ require_once('data/get_destination.php');
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Online Ticketing</a>
+      <a class="navbar-brand" href="#">Railway Ticketing System</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active">
@@ -47,13 +47,13 @@ require_once('data/get_destination.php');
 	<div class="col-md-4">
 		<div class="panel panel-default">
 			<div class="panel-body">
-			 <h2>
-			 	<center>SELECT STATION </center>
-			 </h2>
+			 <h4>
+			 	<span class="btn btn-primary btn-block"><strong>SELECT STATION</strong> </span>
+			 </h4>
 				<div class="container-fluid">
 					<form class="form-horizontal" role="form" id="form-itinerary">
 					  <div class="form-group">
-					    <label for="">Origin:</label>
+					    <label for="">From:</label>
 					    <select class="btn btn-default" id="orig-id">
 					    <?php foreach($origins as $o): ?>
 					    	<option value="<?= $o['origin_id']; ?>"><?= $o['origin_desc']; ?></option>

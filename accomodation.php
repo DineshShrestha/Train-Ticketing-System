@@ -14,7 +14,7 @@ if(isset($_SESSION['departure_date'])){
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Medallion</title>
+		<title>Online Train Ticketing</title>
 
 		<!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -26,7 +26,7 @@ if(isset($_SESSION['departure_date'])){
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Medallion Online Ticketing</a>
+      <a class="navbar-brand" href="#">Online Train Ticketing</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active">
@@ -36,7 +36,7 @@ if(isset($_SESSION['departure_date'])){
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="index.php"><span class="glyphicon glyphicon-backward"></span> Back To Home</a></li>
+      <li><a href="index.php"><span class="glyphicon glyphicon-backward"></span> Back To Main</a></li>
     </ul>
   </div>
 </nav>
@@ -84,26 +84,7 @@ if(isset($_SESSION['departure_date'])){
 						   			</td>
 						   			<td align="center"><?= $getSit['acc_price']; ?></td>
 						   		</tr>
-						   		<tr>
-						   			<td>
-						   				<input value="<?= $getEcoA['acc_id']; ?>" type="radio" name="acc">
-						   				<?= $getEcoA['acc_type']; ?>
-						   			</td>
-						   			<td align="center">
-						   				<?= $getEcoA['acc_slot'] - $totalEcoA['ecoA']; ?>
-						   			</td>
-						   			<td align="center"><?= $getEcoA['acc_price']; ?></td>
-						   		</tr>
-						   		<tr>
-						   			<td>
-						   				<input value="<?= $getEcoB['acc_id']; ?>" type="radio" name="acc">
-						   				<?= $getEcoB['acc_type']; ?>
-						   			</td>
-						   			<td align="center">
-						   				<?= $getEcoB['acc_slot'] - $totalEcoB['ecoB']; ?>
-						   			</td>
-						   			<td align="center"><?= $getEcoB['acc_price']; ?></td>
-						   		</tr>
+
 						   		<tr>
 						   			<td>
 						   				<input value="<?= $getTour['acc_id']; ?>" type="radio" name="acc">

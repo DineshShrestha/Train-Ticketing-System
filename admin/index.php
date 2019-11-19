@@ -15,7 +15,7 @@
 
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#"> Online Ticketing</a>
+		<a class="navbar-brand" href="#"> Online Train Ticketing</a>
 		<ul class="nav navbar-nav">
 			<li>
 				<a href="#"></a>
@@ -81,8 +81,7 @@
 <script type="text/javascript">
 	$(document).on('submit', '#form-login', function(event) {
 		event.preventDefault();
-		/* Act on the event */
-		// console.log('test');
+	
 		var un = $('#un').val();
 		var pwd = $('#pwd').val();
 
@@ -95,7 +94,7 @@
 						pwd : pwd
 					},
 				success: function (data) {
-					// console.log(data);
+					
 					if(data.valid == true){
 						window.location = data.url;
 					}else{

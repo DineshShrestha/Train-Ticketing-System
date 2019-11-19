@@ -26,7 +26,7 @@ if(isset($_SESSION['accomodation'])){
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Medallion Online Ticketing</a>
+      <a class="navbar-brand" href="#">Railway Online Ticketing</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active">
