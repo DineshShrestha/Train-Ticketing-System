@@ -48,6 +48,6 @@ class Transaction extends Database implements iTransaction
 $transaction = new Transaction();
 
 /* End of file Transaction.php */
-/* Location: .//D/xampp/htdocs/medallion/class/Transaction.php */
+
 
 

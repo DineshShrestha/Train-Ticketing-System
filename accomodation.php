@@ -23,34 +23,16 @@ if(isset($_SESSION['departure_date'])){
 	</head>
 <body style="background-color: lightblue;">
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Online Train Ticketing</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active">
-      	<a href="#">Rerservation
-      	<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
-      	</a>
-      </li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="index.php"><span class="glyphicon glyphicon-backward"></span> Back To Main</a></li>
-    </ul>
-  </div>
-</nav>
-
 
 
 
 <div class="container-fluid">
-	<div class="col-md-3"></div>
-	<div class="col-md-6">
+	<div class="col-md-2"></div>
+	<div class="col-md-6 offset-4 mr-3">
 		<div class="panel panel-default">
 			<div class="panel-body">
 			 <h2>
-			 	<center>ACCOMODATION</center>
+			 <span class="btn btn-primary btn-block"><strong>ACCOMODATION</strong> </span>
 			 </h2>
 				<div class="container-fluid">
 					<form class="form-horizontal" role="form" id="form-acc">
@@ -121,6 +103,7 @@ if(isset($_SESSION['departure_date'])){
 					    <label for="">Total # of Passenger:</label>
 					    <input type="number" min="1" class="form-control" name="totalPass" plactreholder="Total # of Passenger" autocomplete="off">
 					  </div>
+					  <button type="submit" class="btn btn-success"><a href="reserved.php"> Back <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
 					  <button type="submit" class="btn btn-success">NEXT
 					  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
 					  </button>

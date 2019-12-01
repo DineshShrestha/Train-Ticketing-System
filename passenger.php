@@ -14,7 +14,7 @@ if(isset($_SESSION['accomodation'])){
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Medallion</title>
+		<title>accomodation</title>
 
 		<!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -22,24 +22,6 @@ if(isset($_SESSION['accomodation'])){
 
 	</head>
 <body style="background-color: lightblue;">
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Railway Online Ticketing</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active">
-      	<a href="#">Rerservation
-      	<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
-      	</a>
-      </li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="index.php"><span class="glyphicon glyphicon-backward"></span> Back To Home</a></li>
-    </ul>
-  </div>
-</nav>
 
 
 

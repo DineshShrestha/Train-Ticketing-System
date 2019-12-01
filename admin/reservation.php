@@ -23,7 +23,7 @@ require_once('session_login.php');
 
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#">Railway Ticketing Admin Panel</a>
+		<a class="navbar-brand" href="index.php">Railway Ticketing Admin Panel</a>
 		<ul class="nav navbar-nav">
 			<li class="active"><a href="reservation.php">Reserved
 			<span class="glyphicon glyphicon-list" aria-hidden="true"></span>

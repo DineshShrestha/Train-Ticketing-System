@@ -8,52 +8,28 @@
     <meta name="viewport" content="width=devidev-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Online Railway Ticket Reservation</title>
-      
-      
-    <!-- [ FONT-AWESOME ICON ] 
-            
-    =========================================================================================================================-->
+      <title>Railway Ticket Reservation</title>
       
     <link rel="stylesheet" type="text/css" href="library/font-awesome-4.3.0/css/font-awesome.min.css">
  
     <link rel="stylesheet" type="text/css" href="library/bootstrap/css/bootstrap-theme.min.css">
       
     <link rel="stylesheet" type="text/css" href="library/bootstrap/css/bootstrap.css">
-          
-    <!-- [ DEFAULT STYLESHEET ] 
-            
-    =========================================================================================================================-->
-      
+             
     <link rel="stylesheet" type="text/css" href="css/style.css">
             
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
       
-    <link rel="stylesheet" type="text/css" href="css/color/rose.css">
             
 
     </head>
     <body >
-
-    <!-- [WRAPPER ]
-
-    =============================================================================================================================-->
-
     <div class="wrapper">
-      
-    <!-- [NAV]
-    
-    ============================================================================================================================-->    
-      
-    <!-- Navigation
-        ==========================================-->
-        
+              
     <nav  class=" nim-menu navbar navbar-default navbar-fixed-top">
           
     <div class="container">
-            
-    <!-- Brand and toggle get grouped for better mobile display -->
-            
+
     <div class="navbar-header">
               
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -73,16 +49,15 @@
     </div>
 
             
-    <!-- Collect the nav links, forms, and other content for toggling -->
-            
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               
     <ul class="nav navbar-nav navbar-right">
                 
-    <li><a href="#home" class="page-scroll"><h3>Home</h3></a></li>
+    <li><a href="#home" ><h3>Home</h3></a></li>
             
 
-    <li><a href="admin/" class="page-scroll"><h3>Login</h3></a></li>
+    <li><a href="admin/"><h3>Login</h3></a></li>
+    <li><a href="registration.php" ><h3>Register</h3></a></li>
               
     </ul>
             
@@ -92,17 +67,6 @@
     </div><!-- /.container-fluid -->
         
     </nav>
-
-
-      
-    <!-- [/NAV]
-    
-    ============================================================================================================================--> 
-        
-      
-    <!-- [/MAIN-HEADING]
-    
-    ============================================================================================================================--> 
       
     <section class="main-heading" id="home">
           
@@ -182,59 +146,16 @@
 
     </footer>
 
-    
-    
-    
-    <!-- [/FOOTER]
-    
-    ============================================================================================================================-->
-
     </div>
-    
-
-    <!-- [ /WRAPPER ]
-
-    =============================================================================================================================-->
-
-      
-    <!-- [ DEFAULT SCRIPT ] -->
-      
-  
-      
+          
     <script src="library/jquery-1.11.3.min.js"></script>
             
     <script src="library/bootstrap/js/bootstrap.js"></script>
       
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
       
-    <!-- [ PLUGIN SCRIPT ] -->
-            
-    <script src="library/vegas/vegas.min.js"></script>
-      
-    <script src="js/plugins.js"></script>
-            
     <!-- [ TYPING SCRIPT ] -->
             
-    <script src="js/typed.js"></script>
-            
-    <!-- [ COUNT SCRIPT ] -->
-            
-    <script src="js/fappear.js"></script>
-          
-    <script src="js/jquery.countTo.js"></script>
-      
-    <!-- [ SLIDER SCRIPT ] -->  
-            
-    <script src="js/owl.carousel.js"></script>
-            
-    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
-            
-    
-            
-            
-    <!-- [ COMMON SCRIPT ] -->
-      <script src="js/common.js"></script>
-      
+    <script src="js/typed.js"></script>      
     </body>
 
 

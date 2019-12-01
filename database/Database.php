@@ -68,8 +68,7 @@ class Database extends Connection{
 		return $lastID;
 	}//end lastID func
 
-
-	//under construction kay dili pa mo gana!!!!
+//Begin transaction function
 	public function transInsert($query, $params = [], $query2, $params2 = []){
 		try {
 			$this->transaction->beginTransaction();

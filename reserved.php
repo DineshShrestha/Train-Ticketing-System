@@ -2,9 +2,6 @@
 require_once('data/get_origin.php');
 require_once('data/get_destination.php');
 
-// echo '<pre>';
-// print_r($origins);
-// echo '</pre>';
  ?>
 <!DOCTYPE html>
 <html lang="">
@@ -21,37 +18,16 @@ require_once('data/get_destination.php');
 	</head>
 <body style="background-color: lightblue;">
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Railway Ticketing System</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active">
-      	<a href="#">Rerservation
-      	<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
-      	</a>
-      </li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="index.php"><span class="glyphicon glyphicon-backward"></span> Back To Home</a></li>
-    </ul>
-  </div>
-</nav>
+<div class="container">
 
-
-
-
-<div class="container-fluid">
-	<div class="col-md-4"></div>
-	<div class="col-md-4">
+	<div class="col-md-10">
 		<div class="panel panel-default">
 			<div class="panel-body">
 			 <h4>
 			 	<span class="btn btn-primary btn-block"><strong>SELECT STATION</strong> </span>
 			 </h4>
-				<div class="container-fluid">
-					<form class="form-horizontal" role="form" id="form-itinerary">
+				<div class="container">
+					<form class="form-horizontal"  id="form-itinerary">
 					  <div class="form-group">
 					    <label for="">From:</label>
 					    <select class="btn btn-default" id="orig-id">
@@ -72,6 +48,7 @@ require_once('data/get_destination.php');
 					    <label for="">Departure Date:</label>
 					    <input type="date" class="btn btn-default" id="dept-date">
 					  </div>
+					  <a href="index.php"><span class="glyphicon glyphicon-backward"></span> Back To Home</a></li>
 					  <button type="submit" class="btn btn-success">NEXT
 					  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
 					  </button>

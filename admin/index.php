@@ -9,13 +9,14 @@
 		<!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="login.css">
 
 	</head>
 <body>
 
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#"> Online Train Ticketing</a>
+		<a class="navbar-brand" href="../index.php"> Online Train Ticketing</a>
 		<ul class="nav navbar-nav">
 			<li>
 				<a href="#"></a>
@@ -30,47 +31,31 @@
 	</div>
 </nav>
 
-
-
 <div class="col-md-3"></div>
-<div class="col-md-6">
-	<div class="panel panel-success">
-		<div class="panel-heading">
-			<h3 class="panel-title">Please Login Here</h3>
-		</div>
-		<div class="panel-body">
-			<form class="form-horizontal" role="form" id="form-login">
-			  <div class="form-group">
-			    <label class="control-label col-sm-2" for="un">Username:</label>
-			    <div class="col-sm-10">
-			      <input type="text" class="form-control" id="un" placeholder="Enter Username" autofocus="" required="">
-			    </div>
-			  </div>
-			  <div class="form-group">
-			    <label class="control-label col-sm-2" for="pwd">Password:</label>
-			    <div class="col-sm-10"> 
-			      <input type="password" class="form-control" id="pwd" placeholder="Enter password" required="">
-			    </div>
-			  </div>
-			  <div class="form-group"> 
-			    <div class="col-sm-offset-2 col-sm-10">
-			      <div class="checkbox">
-			        <label><input type="checkbox"> Remember me</label>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="form-group"> 
-			    <div class="col-sm-offset-2 col-sm-10">
-			      <button type="submit" class="btn btn-default">Login
-			      <span class="glyphicon glyphicon-check" aria-hidden="true"></span>
-			      </button>
-			    </div>
-			  </div>
-			</form>
-		</div>
-	</div>
+<div class="col-md-8">
+<div class="login-form">
+    <form id="form-login">
+        <h2 class="text-center">Log in</h2>       
+        <div class="form-group">
+		
+            <input type="text" class="form-control" id="un" placeholder="Username" required="required">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="pwd" placeholder="Password" required="required">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Log in</button>
+        </div>
+        <div class="clearfix">
+            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+            <a href="#" class="pull-right">Forgot Password?</a>
+        </div>        
+    </form>
+    <p class="text-center"><a href="../registration.php">Create an Account</a></p>
 </div>
-<div class="col-md-3"></div>
+
+</div>
+
 
 
 <?php require_once('modal/message.php'); ?>
