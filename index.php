@@ -78,9 +78,7 @@
                       
     <div class="main-heading-content col-md-12 col-sm-12 text-center">
             
-    <h1 class="main-heading-title"><span class="main-element " data-elements=" Welcome to, Welcome to, Welcome to"></span></h1>
-    
-    <h1 class="main-heading-title"><span class="main-element " data-elements=" Train Reservation System, Train Reservation System, Train Reservation System"></span></h1>
+    <h1 class="main-heading-title">Welcome to Railway ticketing System</h1>
               
     <div class="btn-bar">
               

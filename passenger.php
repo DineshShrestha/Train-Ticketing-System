@@ -21,7 +21,7 @@ if(isset($_SESSION['accomodation'])){
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">
 
 	</head>
-<body style="background-color: lightblue;">
+<body style="background-color: lightgreen;">
 
 
 
@@ -29,11 +29,6 @@ if(isset($_SESSION['accomodation'])){
 <div class="container-fluid">
 	<div class="col-md-4"></div>
 	<div class="col-md-4">
-		<div class="alert alert-danger">
-			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-			<strong>Message!</strong> Please review your passenger information.
-			You cannot change your reservation once you proceed. 
-		</div>
 		<div class="panel panel-default">
 			<div class="panel-body">
 			 <h2>

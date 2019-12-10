@@ -18,7 +18,7 @@ if(isset($_SESSION['tracker'])){
 
 		<!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">
+
 
 	</head>
 <body style="background-color: lightblue;">
@@ -41,8 +41,7 @@ if(isset($_SESSION['tracker'])){
   </div>
 </nav>
 
-
-
+ 
 
 <div class="container-fluid">
 	<div class="col-md-3"></div>
@@ -147,13 +146,19 @@ if(isset($_SESSION['tracker'])){
 						    <strong>- Booked ID: <?= $tracker; ?></strong>
 						   </table>
 						   <center>
-							   <a href="index.php" class="btn btn-success">Return Home
-								   <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+							   <a href="index.php" class="btn btn-success">
+							   <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+							   Return Home
 							   </a>
+							   <a href="success.php" class="btn btn-success">Confirm Booking <?php require_once("php/sendmail.php");?>
+								   <span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+							   </a>
+							   
 						   </center>
 				</div>
 			</div>
 		</div>
+		<h2>YOU WILL RECEIVE YOUR TICKET IN YOUR MAIL ONCE THE PAYMENT IS COMPLETED</h2>
 	</div>
 	<div class="col-md-3"></div>
 </div>
@@ -167,10 +172,10 @@ if(isset($_SESSION['tracker'])){
 </html>
 
 <?php
+
 }else{
 	echo '<strong>';
 	echo 'Page Not Exist';
 	echo '</strong>';
 }//end if else isset
-
  ?>
